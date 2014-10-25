@@ -1,0 +1,34 @@
+src/*.exe
+src/nhucoin
+src/nhucoin
+src/test_nhucoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.nhucoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+nhucoin-qt
+Nhucoin-Qt.app
+
+# Unit-tests
+Makefile.test
+nhucoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
