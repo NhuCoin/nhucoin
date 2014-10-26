@@ -220,7 +220,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/limitedmap.h \
     src/qt/macnotificationhandler.h \
     src/qt/splashscreen.h \
-    src/qt/hashblock.h \
+    src/hashblock.h \
     src/sph_echo.h \
     src/sph_shavite.h \
     src/sph_simd.h \
