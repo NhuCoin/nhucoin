@@ -1328,7 +1328,7 @@ public:
 
     uint256 GetHash() const
     {
-	return hash_fugue(BEGIN(nVersion), END(nNonce));
+	return hash_Groestl(BEGIN(nVersion), END(nNonce));
     }
 
     int64 GetBlockTime() const

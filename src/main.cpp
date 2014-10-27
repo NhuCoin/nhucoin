@@ -2779,7 +2779,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Nhucoin Oct 24, 2014";
+        const char* pszTimestamp = "Nhucoin Oct 24, 2014.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
